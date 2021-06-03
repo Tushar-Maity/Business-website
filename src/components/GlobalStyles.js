@@ -9,4 +9,16 @@ const GlobalStyle = createGlobalStyle`
     }
 `
 
+export const StyledContainer = styled.div`
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+    @media scree and (max-width: 992px) {
+        padding: 0 30px;
+    }
+`
+
 export default GlobalStyle

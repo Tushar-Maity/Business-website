@@ -16,7 +16,7 @@ export const StyledContainer = styled.div`
     margin: 0 auto;
     padding: 0 50px;
 
-    @media scree and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
         padding: 0 30px;
     }
 `

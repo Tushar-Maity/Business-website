@@ -1,15 +1,14 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
 import GlobalStyle from "./components/GlobalStyles"
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <Router>
        <GlobalStyle />
        <Navbar />
-       Landing Page
-    </div>
+    </Router>
   );
 }
 
